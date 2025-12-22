@@ -1,6 +1,6 @@
 # Multiclass Misinformation Detection
 
-This repository contains experiments on **3-class misinformation detection** (`false`, `true`, `unknown`) using multiple datasets from the **ComplexDataLab/Misinfo_Datasets** collection. The project compares **lexical**, **embedding-based**, and **transformer-based** models under **claim-only** and **claim+evidence** settings, and evaluates **multilingual and cross-lingual generalization**.
+This repository contains experiments on **3-class misinformation detection** (`false`, `true`, `unknown`) using multiple datasets from the [**ComplexDataLab/Misinfo_Datasets**](https://huggingface.co/datasets/ComplexDataLab/Misinfo_Datasets) collection. The project compares **lexical**, **embedding-based**, and **transformer-based** models under **claim-only** and **claim+evidence** settings, and evaluates **multilingual and cross-lingual generalization**.
 
 ## Objectives
 - Compare three modeling families for multiclass misinformation detection.
@@ -31,7 +31,7 @@ This repository contains experiments on **3-class misinformation detection** (`f
 - `x_fact_claim_evidence.ipynb` - X-FACT claim+evidence (all languages)
 - `x_fact_crosslingual.ipynb` - monolingual (EN/ES/PL) and zero-shot EN→ES/PL evaluation
 - `keyword_analysis.ipynb` - keyword correlation analysis inspired by  
-  *A Guide to Misinformation Detection Data and Evaluation* (KDD 2025)
+  [*A Guide to Misinformation Detection Data and Evaluation*](https://arxiv.org/pdf/2411.05060v2)
 
 ## Evaluation Metrics
 - **Macro-F1** (primary metric for class imbalance)
